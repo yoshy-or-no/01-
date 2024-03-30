@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="ru" > 
+<head> 
+  <meta charset="UTF-8"> 
+  <title>крестики-нолики</title> 
+  <link rel="stylesheet" href="style.css"> 
+ 
+</head> 
+<body> 
+ 
+  <h1>Крестики-нолики</h1> 
+  <!-- игровое поле --> 
+ <table> 
+  <!-- каждая клетка — ячейка таблицы --> 
+  <tr> 
+   <td class="cell" id="0"></td> 
+   <td class="cell" id="1"></td> 
+   <td class="cell" id="2"></td> 
+  </tr> 
+  <tr> 
+   <td class="cell" id="3"></td> 
+   <td class="cell" id="4"></td> 
+   <td class="cell" id="5"></td> 
+  </tr> 
+  <tr> 
+   <td class="cell" id="6"></td> 
+   <td class="cell" id="7"></td> 
+   <td class="cell" id="8"></td> 
+  </tr> 
+ </table> 
+ <!-- блок с сообщением о конце игры --> 
+ <div class="endgame"> 
+  <div class="text"></div> 
+ </div> 
+ <!-- кнопка перезапуска --> 
+ <button onClick="startGame()">ЗАНОВО</button> 
+ <!-- подключаем скрипт --> 
+  <script src="script.js"></script> 
+</body> 
+</html>
